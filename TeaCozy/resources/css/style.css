@@ -1,0 +1,116 @@
+/* Universal Styles */
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 10px;
+  margin-right: auto;
+}
+.nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.nav a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* Banner */
+.banner {
+  display: block;
+  position: relative;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  margin: auto;
+}
+
+.banner-text {
+  background-color: black;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+/* Teas of the Month */
+.teas-container {
+  height: auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.teas {
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-content img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+/* Locations */
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.location-card {
+  background-color: black;
+  opacity: 1.0;
+  height: 300px;;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#email {
+    color: seashell;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
